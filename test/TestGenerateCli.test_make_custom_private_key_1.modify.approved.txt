@@ -1,0 +1,6 @@
+Executed command: genson data/sample1.json
+Result code: 0
+Standard Output (starting on the new line):
+{"$schema": "http://json-schema.org/schema#", "type": "object", "properties": {"menu": {"type": "object", "properties": {"id": {"type": "string"}, "value": {"type": "string"}, "popup": {"type": "object", "properties": {"menuitem": {"type": "array", "items": {"type": "object", "properties": {"value": {"type": "string"}, "onclick": {"type": "string"}}, "required": ["onclick", "value"]}}}, "required": ["menuitem"]}}, "required": ["id", "popup", "value"]}}, "required": ["menu"]}
+
+Standard Error (starting on the new line):
